@@ -1,0 +1,94 @@
+<html>
+
+<head>
+  <title>Bank Info</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet"
+    type='text/css'>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"="true"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <!-- <a class="nav-link text-white" href="/">Home <span class="sr-only">(current)</span></a>-->
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="customer.html">View Customers </a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="customer.html">Transfer History</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="bank.html">About Us<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+
+  <section id="action" class="coloured-section">
+    <h1 class="title">Why should you choose us ?</h1>
+  </section>
+  <section id="features1" class="white-section">
+    <div class="row text-center">
+      <div class="feature-boxes col-lg-4 col-md-6">
+        <h3 class="feature-title">
+          <img src=" data:image/png;base64,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
+            "  width="50px" height="50px">Do banking very easily.
+        </h3>
+        <p>One tap transaction</p>
+      </div>
+      <div class="feature-boxes col-lg-4 col-md-6">
+        <h3 class="feature-title">
+          <img src="https://library.kissclipart.com/20191029/qee/kissclipart-money-icon-shopping-icon-transaction-icon-1c67f7c199e99629.png            "  width="50px" height="50px">Check your transaction.
+        </h3>
+     
+          <p>Easiest way to view transaction history.</p><br>
+      </div>
+      <div class="feature-boxes col-lg-4 col-md-6">
+        <h3 class="feature-title"><img src="data:image/png;base64,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" width="50px" height="50px">A service of trust.</h3>
+        <p>A trusted platform where you can send money easily and in a very secured manner.</p>
+      </div>
+    </div>
+  </section>
+
+  <!---Action -->
+  <footer id="footer" class="coloured-section">
+    <p>FIND US ON SOCIAL MEDIA</p>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <i class="social-icon fa fa-facebook-square" aria-hidden></i>
+    <i class="social-icon fa fa-instagram" aria-hidden="true"></i>
+    <i class="social-icon fa fa-twitter" aria-hidden="true"></i>
+    <i class="social-icon fa fa-linkedin" aria-hidden="true"></i>
+    <p>© Copyright 2021 SPARKS Bank.</p>
+  </footer>
+</body>
+
+</html>
